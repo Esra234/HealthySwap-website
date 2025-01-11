@@ -1,0 +1,64 @@
+.intro-section {
+    text-align: center;
+    background-color: #114223ff;
+    color: #faf7f1;
+    padding: 30px;
+}
+
+.intro-section h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.intro-section p {
+    font-size: 20px;
+}
+
+.stories {
+    padding: 50px;
+}
+
+.story-card {
+    display: flex;
+    align-items: center;
+    border: 3px solid #e6bb6c;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    padding: 25px;
+    box-shadow: 0px 4px 12px #00000026;
+    transition: all 0.3s ease;
+
+}
+
+.story-card:hover {
+    border-color: #B13800ff;
+    transform: translateY(-6px);
+}
+
+.card-content {
+    padding: 25px;
+}
+
+.card-content h2 {
+    font-size: 2em;
+    color: #114223ff;
+    margin-bottom: 10px;
+}
+
+.quote {
+    font-style: italic;
+    color: #8d9a4e;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 1.2em;
+    color: #0c1c19;
+}
+
+.story-media {
+    width: 35%;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px #00000026;
+}

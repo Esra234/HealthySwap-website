@@ -1,0 +1,75 @@
+p,
+legend {
+  font-size: 20px;
+
+}
+
+hr {
+  border-color: #B13800ff;
+  margin: 40px 0;
+  width: 65%;
+}
+
+.stars {
+  display: inline-block;
+  margin: 10px 0;
+}
+
+.stars input {
+  display: none;
+}
+
+.stars label {
+  font-size: 40px;
+  color: #c1b9b9;
+  cursor: pointer;
+}
+
+.stars input:checked~label {
+  color: #e6bb6c;
+}
+
+.stars label:hover,
+.stars label:hover~label {
+  color: #e6bb6c;
+}
+
+.submit-btn {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 10px 20px;
+  font-size: 15px;
+  color: #faf7f1;
+  background-color: #B13800ff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #672101;
+}
+
+.c {
+  color: #114223ff;
+}
+
+.c1 {
+  text-align: justify;
+  color: #0c1c19;
+}
+
+fieldset {
+  color: #0c1c19;
+  width: 65%;
+  padding: 20px;
+  border-color: #B13800ff;
+}
+
+textarea {
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #0c1c19;
+}

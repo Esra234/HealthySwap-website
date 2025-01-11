@@ -1,0 +1,38 @@
+.HeaderImage {
+    width: 100%;
+    margin: 0;
+}
+
+.intro-section {
+    text-align: center;
+    padding: 40px 20px;
+    color: #0c1c19;
+}
+
+.card {
+    background-color: #0c1c19 !important;
+    margin: 10px;
+}
+
+.card-title {
+    color: #8d9a4e !important;
+}
+
+.card-text {
+    color: #faf7f1 !important;
+}
+
+.card-img-top {
+    height: 200px;
+}
+
+.card-body a {
+    color: #e6bb6c !important;
+    text-decoration: none;
+
+}
+
+.card-body a:hover {
+    color: #B13800ff !important;
+
+}
